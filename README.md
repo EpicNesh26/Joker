@@ -13,7 +13,6 @@ Welcome to the digital realm of chaos and madness – Joker's Playground, a webs
 
 
 ## Learning Outcomes 
-
 1) Gain hands-on experience in structuring content with HTML tags.
 2) Practice styling elements and layouts using CSS.
 3) To understand the switching between paages using HTML AND CSS

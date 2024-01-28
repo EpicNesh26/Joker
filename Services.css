@@ -1,0 +1,137 @@
+@import url(Gothic-Joker.ttf);
+
+
+@import url(GothicJoker-gxxGP.ttf);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: black;
+}
+
+.container{
+    /* position: relative */
+    width: 100%;
+    height:170vh ;
+    background-image: url(images/106931041-seamless-geometric-pattern-with-cubes-black-geometric-background-vector-illustration-eps10.jpg);
+    filter:grayscale(100%);
+    filter: brightness(70%);
+    filter:blur(100%);
+    background-size: normal;
+    background-repeat: repeat;
+    z-index: 1;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+    color: white;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    @font-face {
+        font-family: Gothic-Joker;
+        src: url();
+    }
+    margin-bottom: 20px;
+}
+
+
+.cards1-4 div.cards1,.cards2,.cards3,.cards4{
+    box-shadow: 2px 2px rgba(81, 81, 81, 0.295);
+}
+
+.cards1-4{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 40px 10px;
+    
+}
+.cards1-4 div{
+    display: block;
+    justify-content: space-between;
+    padding: 20px 10px 40px 10px;
+
+    width: 320px;
+    height: 440px;
+    align-content: center;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+
+.cards1-4 h2{
+    padding-bottom: 10px;
+    padding-left: 80px;
+    font-size: 18px;
+}
+
+.cards1-4 .img{
+    height: 200px;
+    width: 295px;
+}
+
+.cards1-4 .img img{
+    height: 160px;
+    width: 270px;
+    filter: saturate(200%);
+    border: 2px solid rgb(42, 37, 37);
+    box-shadow: 2px 2px rgba(57, 53, 53, 0.615);
+    border-radius: 8px;
+}
+
+.cards1-4 p{
+    font-size: 15px;
+    margin-bottom: 30px;
+    
+}
+
+.cards1-4 a{
+    font-size: 16px;
+    text-decoration: none ;
+    padding: 10px 30px;
+    margin-left: 100px;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(207, 207, 207);
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+
+
+
+.cards5-8{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 40px 10px;
+}
+
+
+
+.cards5-8 div{
+    display: block;
+    justify-content: space-between;
+    padding: 20px 10px 40px 10px;
+    border: 2px solid red;
+    width: 320px;
+    height: 440px;
+    align-content: center;
+}
+
+
+.cards5-8 p{
+    padding-bottom: 10px;
+}
+
+.cards5-8 .img{
+    height: 200px;
+    width: 295px;
+}

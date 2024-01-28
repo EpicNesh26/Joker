@@ -1,0 +1,106 @@
+@import url(Gothic-Joker.ttf);
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Josefin+Sans&family=Pirata+One&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url(images/106931041-seamless-geometric-pattern-with-cubes-black-geometric-background-vector-illustration-eps10.jpg);
+    /* background-repeat: repeat; */
+    /* z-index: -1; */ 
+}
+
+.container{
+    background: url(images/86956-3840x2160-the-joker-background-image-desktop-4k.jpg);
+    background-size: cover;
+    position: relative;
+    height: 165vh;
+    width: 100%;
+    z-index: 1;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+}
+
+
+.heading{
+    padding-bottom: 3%;
+    color:#105b04;
+    font-family: 'Gothic-Joker.ttf';
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.heading span{
+    color:#a63218 ;
+}
+
+.content{
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Gothic-Joker.ttf';
+    font-size: 16px;
+    color: white;
+    width: 600px;
+    height: 475px;
+    font-weight: normal;
+
+}
+.content span1{
+    color: #105b04;
+    font-weight: bold;
+}
+.content span2{
+    color: #ff3103;
+    font-weight: bold;
+}
+
+
+.head2{
+    padding-bottom: 1%;
+    color:#105b04;
+    font-family: 'Gothic-Joker.ttf';
+    font-weight: bolder;
+    font-size: 20px;
+}
+.head2 span3{
+    color: #ff3103;
+}
+
+.content2{
+    font-family: 'Gothic-Joker.ttf';
+    font-size: 16px;
+    color: white;
+    width: 600px;
+    height: 378px;
+    font-weight: normal;
+    display: inline-block;
+
+}
+.hireme a{
+    color:  #000000 ;
+    background: #fff ;
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 6px;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    margin: 50px 2px 2px 2px;
+}
+
+/* .hireme a{
+    text-decoration: none;
+    color:black
+} */
+
+.hireme a:hover{
+    font-weight: bold;
+    color: #fff;
+    background-color: #000000;
+    transition: 0.5s;
+    border: 1px solid white;
+}

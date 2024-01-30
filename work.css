@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Josefin+Sans&family=Pirata+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&display=swap');
+
+@import url(Gothic-Joker.ttf);
+
+
+@import url(GothicJoker-gxxGP.ttf);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+.container{
+    background-image: url(images/87009-3840x2160-the-joker-background-image-desktop-4k.jpg);
+    width: 100%;
+    height :1000px;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position:left top ;
+    background-size: cover;
+}

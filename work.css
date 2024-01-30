@@ -17,6 +17,8 @@
 }
 
 .container{
+    padding-left: 30px;
+    padding-right: 30px;
     background-image: url(images/87009-3840x2160-the-joker-background-image-desktop-4k.jpg);
     width: 100%;
     height :1000px;
@@ -24,4 +26,21 @@
     background-repeat: no-repeat;
     background-position:left top ;
     background-size: cover;
+}
+
+.container h2{
+    font-family: 'Pirata One', system-ui;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.project1{
+    margin-top: 40px;
+    width: 100%;
+    height: 60vh;
+    border: 2px solid red;
 }

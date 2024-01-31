@@ -52,3 +52,13 @@
     background-image: cover;
     object-fit: cover;
 }
+
+.project1 p,a{
+    color: white;
+    /* display: inline-block; */
+    width: 1100px;
+    float: right;
+    font-size: 25px;
+    padding: 20px;
+    padding-top: 140px;
+}

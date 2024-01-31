@@ -44,3 +44,11 @@
     height: 60vh;
     border: 2px solid red;
 }
+
+.project1 img{
+    height: 460px;
+    padding: 10px;
+    width: 500px;
+    background-image: cover;
+    object-fit: cover;
+}

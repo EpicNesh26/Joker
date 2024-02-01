@@ -21,7 +21,7 @@
     padding-right: 30px;
     background-image: url(images/87009-3840x2160-the-joker-background-image-desktop-4k.jpg);
     width: 100%;
-    height :1000px;
+    height :130vh;
     background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-position:left top ;
@@ -42,23 +42,30 @@
     margin-top: 40px;
     width: 100%;
     height: 60vh;
-    border: 2px solid red;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(18, 18, 18, 0.871);
+    border-radius: 20px;
+    box-shadow: 4px 5px rgba(255, 255, 255, 0.267);
 }
 
 .project1 img{
-    height: 460px;
-    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.267);
+    border-radius: 10px;
+    height: 378px;
+    margin: 20px;
     width: 500px;
     background-image: cover;
     object-fit: cover;
+
+    
 }
 
 .project1 p,a{
-    color: white;
+    color: rgb(255, 255, 255);
     /* display: inline-block; */
-    width: 1100px;
+    width: 900px;
     float: right;
-    font-size: 25px;
+    font-size: 18px;
     padding: 20px;
-    padding-top: 140px;
+    padding-top: 40px;
 }

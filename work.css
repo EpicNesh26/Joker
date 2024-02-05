@@ -19,13 +19,12 @@
 .container{
     padding-left: 30px;
     padding-right: 30px;
-    background-image: url(images/87009-3840x2160-the-joker-background-image-desktop-4k.jpg);
-    width: 100%;
-    height :130vh;
-    background-repeat: no-repeat;
-    background-repeat: no-repeat;
-    background-position:left top ;
-    background-size: cover;
+    background-image: url(images/106931041-seamless-geometric-pattern-with-cubes-black-geometric-background-vector-illustration-eps10.jpg);
+    filter:grayscale(100%);
+    filter: brightness(70%);
+    filter:blur(100%);
+    background-size: normal;
+    background-repeat: repeat;
 }
 
 .container h2{
@@ -67,5 +66,37 @@
     float: right;
     font-size: 18px;
     padding: 20px;
-    padding-top: 40px;
+    padding-top: 30px;
+}
+
+.project2{
+    margin-top: 40px;
+    width: 100%;
+    height: 60vh;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(18, 18, 18, 0.871);
+    border-radius: 20px;
+    box-shadow: 4px 5px rgba(255, 255, 255, 0.267);
+}
+
+.project2 img{
+    border: 2px solid rgba(255, 255, 255, 0.267);
+    border-radius: 10px;
+    height: 378px;
+    margin: 20px;
+    width: 500px;
+    background-image: cover;
+    object-fit: cover;
+
+    
+}
+
+.project2 p,a{
+    color: rgb(255, 255, 255);
+    /* display: inline-block; */
+    width: 900px;
+    float: right;
+    font-size: 18px;
+    padding: 20px;
+    padding-top: 50px;
 }
